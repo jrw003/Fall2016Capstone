@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: 2599267ad9be54a4889204f17f81ddde
+timeCreated: 1475523211
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: snake sprite charles laser_1
+    21300002: snake sprite charles laser_2
+    21300004: snake sprite charles laser_3
+    21300006: snake sprite charles laser_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: snake sprite charles laser_1
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 293
+        width: 138
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 24}
+        - {x: -69, y: 21}
+        - {x: -69, y: -29}
+        - {x: 69, y: -29}
+        - {x: 69, y: 24}
+      - - {x: -50, y: 29}
+        - {x: -51, y: 28}
+        - {x: -51, y: 25}
+        - {x: -49, y: 24}
+        - {x: -44, y: 24}
+        - {x: -43, y: 27}
+        - {x: -43, y: 29}
+    - name: snake sprite charles laser_2
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 282
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snake sprite charles laser_3
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 166
+        width: 144
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: -22.5}
+        - {x: -49, y: -28.5}
+        - {x: -38, y: -28.5}
+        - {x: -38, y: -25.5}
+        - {x: -44, y: -18.5}
+        - {x: -54, y: -17.5}
+        - {x: -56, y: -17.5}
+        - {x: -58, y: -19.5}
+      - - {x: -54, y: 28.5}
+        - {x: -57, y: 26.5}
+        - {x: -60, y: 16.5}
+        - {x: -60, y: 2.5}
+        - {x: -53, y: -5.5}
+        - {x: -42, y: -12.5}
+        - {x: -37, y: -12.5}
+        - {x: -34, y: -11.5}
+        - {x: 72, y: -7.5}
+        - {x: 72, y: 26.5}
+        - {x: 22, y: 28.5}
+    - name: snake sprite charles laser_5
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 80
+        width: 137
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

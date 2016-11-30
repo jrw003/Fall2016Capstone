@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FrogController.cs">
+    <Files>
+      <File FileName="Assets\Scripts\EnemyMovement.cs" Line="227" Column="1" />
+      <File FileName="Assets\Scripts\GameController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerCntrller.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RotateBox.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DestroyParticleSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Door.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EnemyRangeAttackController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ShootAtPlayer.cs" Line="23" Column="2" />
+      <File FileName="Assets\Scripts\FrogController.cs" Line="73" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,616 @@
+fileFormatVersion: 2
+guid: d48e24d88319bb7428c8b09ab523a27a
+timeCreated: 1480265888
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fish bossCleanUp1_0
+    21300002: fish bossCleanUp1_1
+    21300004: fish bossCleanUp1_2
+    21300006: fish bossCleanUp1_3
+    21300008: fish bossCleanUp1_4
+    21300010: fish bossCleanUp1_5
+    21300012: fish bossCleanUp1_6
+    21300014: fish bossCleanUp1_7
+    21300016: fish bossCleanUp1_8
+    21300018: fish bossCleanUp1_9
+    21300020: fish bossCleanUp1_16
+    21300022: fish bossCleanUp1_25
+    21300024: fish bossCleanUp1_26
+    21300026: fish bossCleanUp1_27
+    21300028: fish bossCleanUp1_28
+    21300030: fish bossCleanUp1_48
+    21300032: fish bossCleanUp1_50
+    21300034: fish bossCleanUp1_51
+    21300036: fish bossCleanUp1_52
+    21300038: fish bossCleanUp1_53
+    21300040: fish bossCleanUp1_54
+    21300042: fish bossCleanUp1_55
+    21300044: fish bossCleanUp1_56
+    21300046: fish bossCleanUp1_57
+    21300048: fish bossCleanUp1_58
+    21300050: fish bossCleanUp1_59
+    21300052: fish bossCleanUp1_60
+    21300054: fish bossCleanUp1_61
+    21300056: fish bossCleanUp1_62
+    21300058: fish bossCleanUp1_63
+    21300060: fish bossCleanUp1_64
+    21300062: fish bossCleanUp1_65
+    21300064: fish bossCleanUp1_66
+    21300066: fish bossCleanUp1_67
+    21300068: fish bossCleanUp1_68
+    21300070: fish bossCleanUp1_69
+    21300072: fish bossCleanUp1_70
+    21300074: fish bossCleanUp1_71
+    21300076: fish bossCleanUp1_72
+    21300078: fish bossCleanUp1_73
+    21300080: fish bossCleanUp1_74
+    21300082: fish bossCleanUp1_75
+    21300084: fish bossCleanUp1_76
+    21300086: fish bossCleanUp1_77
+    21300088: fish bossCleanUp1_78
+    21300090: fish bossCleanUp1_79
+    21300092: fish bossCleanUp1_80
+    21300094: fish bossCleanUp1_81
+    21300096: fish bossCleanUp1_82
+    21300098: fish bossCleanUp1_83
+    21300100: fish bossCleanUp1_84
+    21300102: fish bossCleanUp1_85
+    21300104: fish bossCleanUp1_86
+    21300106: fish bossCleanUp1_87
+    21300108: fish bossCleanUp1_88
+    21300110: fish bossCleanUp1_89
+    21300112: fish bossCleanUp1_90
+    21300114: fish bossCleanUp1_91
+    21300116: fish bossCleanUp1_92
+    21300118: fish bossCleanUp1_93
+    21300120: fish bossCleanUp1_10
+    21300122: fish bossCleanUp1_11
+    21300124: fish bossCleanUp1_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fish bossCleanUp1_0
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 500
+        width: 57
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 498
+        width: 56
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_2
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 500
+        width: 60
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_3
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 499
+        width: 74
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_4
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 549
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_5
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 559
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_6
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 562
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_7
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 493
+        width: 39
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 493
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_9
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 498
+        width: 49
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 492
+        width: 30
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_50
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 437
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_51
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 426
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_52
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 438
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_53
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 437
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_54
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 426
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_55
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 434
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_56
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 434
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_57
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 426
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_58
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 435
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_59
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 433
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_60
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 434
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_61
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 431
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_62
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 433
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_63
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 432
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_64
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 431
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_65
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 432
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_66
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 453
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_67
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 452
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_68
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 435
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_69
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 437
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_70
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 434
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_71
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 433
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_89
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 367
+        width: 43
+        height: 36
+      alignment: 9
+      pivot: {x: 0.49999696, y: 0.49999723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_93
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 367
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_10
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 496
+        width: 57
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_11
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 502
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fish bossCleanUp1_12
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 494
+        width: 67
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

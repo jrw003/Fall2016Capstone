@@ -1,0 +1,437 @@
+fileFormatVersion: 2
+guid: 36a563c60ea8a4564b03b1b7a3c11700
+timeCreated: 1476745218
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: snake sprite charles_0
+    21300002: snake sprite charles_1
+    21300004: snake sprite charles_2
+    21300006: snake sprite charles_3
+    21300008: snake sprite charles_5
+    21300010: snake sprite charles_6
+    21300012: snake sprite charles_7
+    21300014: snake sprite charles_8
+    21300016: snake sprite charles_9
+    21300018: snake sprite charles_10
+    21300020: snake sprite charles_11
+    21300022: snake sprite charles_12
+    21300024: snake sprite charles_13
+    21300026: snake sprite charles_14
+    21300028: snake sprite charles_15
+    21300030: snake sprite charles_16
+    21300032: snake sprite charles_17
+    21300034: snake sprite charles_18
+    21300036: snake sprite charles_19
+    21300038: snake sprite charles_20
+    21300040: snake sprite charles_21
+    21300042: snake sprite charles_22
+    21300044: snake sprite charles_23
+    21300046: snake sprite charles_24
+    21300048: snake sprite charles_25
+    21300050: snake sprite charles_26
+    21300052: snake sprite charles_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 1
+  spritePivot: {x: 0, y: 1}
+  spriteBorder: {x: 133, y: 0, z: 0, w: 110}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: snake sprite charles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 488
+        width: 129
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 487
+        width: 104
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_2
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 488
+        width: 111
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_3
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 488
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 376
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_6
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 376
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_7
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 376
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_8
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 376
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 376
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 264
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_11
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 264
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_12
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 264
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_13
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 264
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_15
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 152
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_16
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 152
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_17
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 152
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_18
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 152
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_19
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 152
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_20
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 152
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_22
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 40
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_23
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 40
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_24
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 40
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_25
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 40
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_26
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 40
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: snake sprite charles_27
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 40
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
