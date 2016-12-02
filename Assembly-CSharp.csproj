@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\EnemyRangeAttackController.cs" />
      <Compile Include="Assets\Scripts\EnemySpawn.cs" />
+     <Compile Include="Assets\Scripts\FishSwimming.cs" />
      <Compile Include="Assets\Scripts\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\FrogController.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
@@ -64,6 +65,9 @@
      <Compile Include="Assets\Scripts\Goal.cs" />
      <Compile Include="Assets\Scripts\HookShot.cs" />
      <Compile Include="Assets\Scripts\HurtPlayer.cs" />
+     <Compile Include="Assets\Scripts\JungleDoor.cs" />
+     <Compile Include="Assets\Scripts\KeepPlayerOnPlatform.cs" />
+     <Compile Include="Assets\Scripts\KeyCollect.cs" />
      <Compile Include="Assets\Scripts\KnightController.cs" />
      <Compile Include="Assets\Scripts\MovePlatform.cs" />
      <Compile Include="Assets\Scripts\PlayerCntrller.cs" />

@@ -21,7 +21,7 @@ public class PlayerCntrller : MonoBehaviour
 	public float maxSpeed = 10f;
 	public bool facingRight = true;
 
-	bool grounded = false;
+	public bool grounded = false;
 	public Transform groundCheck;
 	float groundRadius = 0.2f;
 	public LayerMask whatIsGround;
@@ -42,6 +42,8 @@ public class PlayerCntrller : MonoBehaviour
 	public float knockBackTime;
 	public float knockBackCounter;
 	public bool knockBackToRight;
+
+	public bool haveJungleKey = false;
 
 	// Use this for initialization
 	void Start ()
@@ -166,6 +168,7 @@ public class PlayerCntrller : MonoBehaviour
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if (other.tag == "MovingPlatform") {
+			onMovingPlatform = true;
 			ParentPlatform (other.gameObject);
 		}
 
@@ -175,11 +178,17 @@ public class PlayerCntrller : MonoBehaviour
 
 		if (other.tag == "Death")
 			SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
+
+		if (other.tag == "JungleKey") {
+			Destroy (other);
+			haveJungleKey = true;
+		}
 	}
 
 	void OnTriggerExit2D (Collider2D other)
 	{
 		if (other.tag == "MovingPlatform") {
+			onMovingPlatform = false;
 			UnParentPlatform (other.gameObject);
 		}
 	}
