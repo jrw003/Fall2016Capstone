@@ -10,12 +10,14 @@ public class JungleDoor : MonoBehaviour
 	public Canvas doorText;
 	float doorTextTimer;
 	bool doorOpen = false;
+	public GameObject divider;
 
 
 	// Use this for initialization
 	void Start ()
 	{
-	
+		doorText.enabled = false;
+		divider.SetActive (true);
 	}
 	
 	// Update is called once per frame
@@ -40,6 +42,8 @@ public class JungleDoor : MonoBehaviour
 				key.enabled = false;
 				doorOpen = true;
 				doorTextTimer = 3f;
+				divider.SetActive (false);
+				doorText.enabled = true;
 			}
 		}
 	}

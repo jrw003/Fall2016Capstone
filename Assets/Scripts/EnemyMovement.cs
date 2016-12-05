@@ -30,6 +30,8 @@ public class EnemyMovement : MonoBehaviour
 	public GameObject player;
 	GameObject thisEnemy;
 	Rigidbody2D rb2d;
+	//public HurtPlayer hurtPlayer;
+	public GameObject playerHurt;
 
 	public Transform groundCheck;
 	public bool groundInFront = true;
@@ -220,6 +222,7 @@ public class EnemyMovement : MonoBehaviour
 //			GetComponent<BoxCollider2D> ().isTrigger = true;
 //		if (GetComponent<CircleCollider2D> () != null)
 //			GetComponent<CircleCollider2D> ().isTrigger = true;
+		playerHurt.SetActive (false);
 		rb2d.GetComponent<SpriteRenderer> ().color = Color.white;
 		anim.SetTrigger ("Death");
 		Destroy (gameObject, 2f);

@@ -48,6 +48,7 @@
      <Compile Include="Assets\Animation Test\NewShot.cs" />
      <Compile Include="Assets\Scripts\ActivateDoubleJump.cs" />
      <Compile Include="Assets\Scripts\ActivateSpawner.cs" />
+     <Compile Include="Assets\Scripts\Arrows.cs" />
      <Compile Include="Assets\Scripts\Attack.cs" />
      <Compile Include="Assets\Scripts\BackgroundScroll.cs" />
      <Compile Include="Assets\Scripts\DestroyObject.cs" />
@@ -60,6 +61,8 @@
      <Compile Include="Assets\Scripts\FishSwimming.cs" />
      <Compile Include="Assets\Scripts\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\FrogController.cs" />
+     <Compile Include="Assets\Scripts\FrogProjectileController.cs" />
+     <Compile Include="Assets\Scripts\FrogShooting.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\Gate.cs" />
      <Compile Include="Assets\Scripts\Goal.cs" />
@@ -76,6 +79,7 @@
      <Compile Include="Assets\Scripts\ShootAtPlayer.cs" />
      <Compile Include="Assets\Scripts\Shot.cs" />
      <Compile Include="Assets\Scripts\ShowCanvas.cs" />
+     <Compile Include="Assets\Scripts\SplitLevel.cs" />
      <Compile Include="Assets\Scripts\TutorialChangeText.cs" />
      <Compile Include="Assets\Test Scripts\PlayerController.cs" />
      <Compile Include="Assets\buttonlevel.cs" />
