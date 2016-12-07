@@ -1,21 +1,23 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FrogShooting.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\HurtPlayer.cs">
     <Files>
-      <File FileName="Assets\Scripts\Arrows.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\JungleDoor.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Goal.cs" Line="1" Column="1" />
-      <File FileName="Assets\buttonlevel.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GameController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlayerCntrller.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FishSwimming.cs" Line="69" Column="39" />
-      <File FileName="Assets\Scripts\HurtPlayer.cs" Line="45" Column="7" />
-      <File FileName="Assets\Scripts\EnemyMovement.cs" Line="34" Column="31" />
+      <File FileName="Assets\Scripts\ShowCanvas.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Gate.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\JungleDoor.cs" Line="3" Column="22" />
+      <File FileName="Assets\Scripts\KeyOff.cs" Line="3" Column="20" />
+      <File FileName="Assets\Scripts\HurtPlayer.cs" Line="33" Column="3" />
+      <File FileName="Assets\Scripts\DestroyParticleSystem.cs" Line="13" Column="1" />
+      <File FileName="Assets\Scripts\Door.cs" Line="16" Column="3" />
+      <File FileName="Assets\Scripts\EnemyController.cs" Line="269" Column="1" />
+      <File FileName="Assets\Scripts\SplitLevel.cs" Line="9" Column="25" />
+      <File FileName="Assets\Scripts\FishSwimming.cs" Line="78" Column="39" />
+      <File FileName="Assets\Scripts\ExplosionDamage.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ExplodeProjectile.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FrogProjectileController.cs" Line="44" Column="25" />
+      <File FileName="Assets\Scripts\FrogShooting.cs" Line="52" Column="4" />
       <File FileName="Assets\Scripts\FrogController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FrogShooting.cs" Line="12" Column="9" />
-      <File FileName="Assets\Scripts\EnemyRangeAttackController.cs" Line="33" Column="56" />
-      <File FileName="Assets\Scripts\ShootAtPlayer.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FrogProjectileController.cs" Line="31" Column="28" />
+      <File FileName="Assets\Scripts\PlayerCntrller.cs" Line="177" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

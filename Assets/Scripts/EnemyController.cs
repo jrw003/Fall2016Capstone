@@ -266,7 +266,7 @@ public class EnemyController : MonoBehaviour
 		if (other.tag == "Freeze") {
 			frozen = true;
 			Destroy (other.gameObject);
-			anim.SetFloat ("Speed", 0f);
+			anim.SetFloat ("Speed", 0);
 		}
 
 		if (other.tag == "Shot") {

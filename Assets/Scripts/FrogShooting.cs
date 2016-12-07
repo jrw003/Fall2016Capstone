@@ -12,6 +12,11 @@ public class FrogShooting : MonoBehaviour
 	public bool facingLeft = false;
 	public float shotTime;
 	float shotTimer = 1f;
+	float distanceToPlayer;
+	bool frozen = false;
+	public int ownHealth;
+	bool dead = false;
+
 
 	// Use this for initialization
 	void Start ()
@@ -24,18 +29,27 @@ public class FrogShooting : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		shotTimer -= Time.deltaTime;
+		if (ownHealth <= 0)
+			Death ();
+		if (!dead) {
+			shotTimer -= Time.deltaTime;
+			distanceToPlayer = Mathf.Abs (transform.position.x - player.transform.position.x);
+			if (player.transform.position.x > transform.position.x && facingLeft ||
+			   player.transform.position.x < transform.position.x && !facingLeft) {
+				Reverse ();
+			}
 
-		if (player.transform.position.x > transform.position.x && facingLeft ||
-		    player.transform.position.x < transform.position.x && !facingLeft) {
-			Reverse ();
+			if (shotTimer < 0.5 && frozen) {
+				anim.SetBool ("Freeze", false);
+				frozen = false;
+			}
+
+			if (shotTimer < 0 && distanceToPlayer < 30f) {
+				anim.SetTrigger ("Shoot");
+				Instantiate (projectile, mouth.transform.position, mouth.transform.rotation);
+				shotTimer = shotTime;
+			}
 		}
-
-		if (shotTimer < 0) {
-			anim.SetTrigger ("Shoot");
-			shotTimer = shotTime;
-		}
-
 	}
 
 	void Reverse ()
@@ -53,5 +67,33 @@ public class FrogShooting : MonoBehaviour
 		if (facingLeft) {
 			Instantiate (projectile, mouth.transform.position, mouth.transform.rotation);
 		}
+	}
+
+	void OnTriggerEnter2D (Collider2D other)
+	{
+		if (other.tag == "Freeze" && !frozen) {
+			anim.SetBool ("Freeze", true);
+			shotTimer = 3f;
+			frozen = true;
+			Destroy (other.gameObject);
+		}
+
+		if (other.tag == "Shot") {
+			ownHealth -= 10;
+			anim.SetTrigger ("Shot");
+			Destroy (other.gameObject);
+		}
+
+		if (other.tag == "PlayerAttack") {
+			ownHealth -= 20;
+			anim.SetTrigger ("Shot");
+		}
+	}
+
+	void Death ()
+	{
+		dead = true;
+		anim.SetTrigger ("Death");
+		Destroy (gameObject, 1f);
 	}
 }

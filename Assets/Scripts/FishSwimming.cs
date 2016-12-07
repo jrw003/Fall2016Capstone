@@ -75,6 +75,7 @@ public class FishSwimming : MonoBehaviour
 			move = -1f;
 		else
 			move = 1f;
+		wall = GameObject.Find ("ShipWall");
 	}
 	
 	// Update is called once per frame

@@ -13,6 +13,7 @@ public class GameController : MonoBehaviour
 	public Text playerHealth;
 	// Restart and Quit buttons on canvas
 	public GameObject buttons;
+	public Text levelButton;
 
 	public GameObject enemySpawner;
 	// Array to put all enemies in game so they can all be stopped when game over
@@ -34,6 +35,7 @@ public class GameController : MonoBehaviour
 	// is game over
 	bool gameover = false;
 	Rigidbody2D rb2d;
+	int scene;
 
 	public AudioSource winSound;
 
@@ -78,14 +80,16 @@ public class GameController : MonoBehaviour
 			playerHealth.text = "Health: " + PlayerCntrller.health;
 
 			// if the player has died or completed the level
+			//PlayerCntrller.health <= 0f || 
 			if (PlayerCntrller.health <= 0f || PlayerCntrller.won) {
 
 				// enable the buttons
-				buttons.SetActive (true);
+				if (PlayerCntrller.won)
+					buttons.SetActive (true);
 
 				// disable the players script and animator
 				GameObject.Find (PLAYER).GetComponent<PlayerCntrller> ().enabled = false;
-				GameObject.Find (PLAYER).GetComponent<Animator> ().enabled = false;
+				//GameObject.Find (PLAYER).GetComponent<Animator> ().enabled = false;
 				rb2d = GameObject.Find (PLAYER).GetComponent<Rigidbody2D> ();
 				rb2d.velocity = new Vector2 (0f, 0f);
 
@@ -109,12 +113,17 @@ public class GameController : MonoBehaviour
 
 				// display death text if player is dead
 				if (PlayerCntrller.health <= 0f) {
-					deathText.GetComponent<Text> ().enabled = true;
+//					deathText.GetComponent<Text> ().enabled = true;
+//					levelButton.text = "Restart Level";
+					scene = SceneManager.GetActiveScene ().buildIndex;
+					SceneManager.LoadScene (scene);
+
 				}
 
 				// display won text if player has completed level
 				if (PlayerCntrller.won) {
 					wonText.GetComponent<Text> ().enabled = true;
+					//levelButton.text = "Next Level";
 					winSound.Play ();
 				}
 
@@ -126,14 +135,35 @@ public class GameController : MonoBehaviour
 
 	// restart game called from button click
 
-	public void TutorialLevel ()
+	public void StartScreen ()
 	{
 		SceneManager.LoadScene (0);
 	}
 
-	public void DesertLevel ()
+	public void TutorialLevel ()
 	{
 		SceneManager.LoadScene (1);
+	}
+
+	public void DesertLevel ()
+	{
+		SceneManager.LoadScene (2);
+	}
+
+	public void JungleLevel ()
+	{
+		SceneManager.LoadScene (3);
+	}
+
+	public void Credits ()
+	{
+		SceneManager.LoadScene (4);
+	}
+
+	public void Restart ()
+	{
+		scene = SceneManager.GetActiveScene ().buildIndex;
+		SceneManager.LoadScene (scene);
 	}
 
 	// quit game called from button click

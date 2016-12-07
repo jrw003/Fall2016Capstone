@@ -1,9 +1,19 @@
 fileFormatVersion: 2
 guid: 36653d380e7fa4b7f8ed85db032e096b
-timeCreated: 1480874363
+timeCreated: 1481131407
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Snake Moving Eye Tutorial_0
+    21300002: Snake Moving Eye Tutorial_1
+    21300004: Snake Moving Eye Tutorial_2
+    21300006: Snake Moving Eye Tutorial_3
+    21300008: Snake Moving Eye Tutorial_4
+    21300010: Snake Moving Eye Tutorial_5
+    21300012: Snake Moving Eye Tutorial_6
+    21300014: Snake Moving Eye Tutorial_7
+    21300016: Snake Moving Eye Tutorial_8
+    21300018: Snake Moving Eye Tutorial_9
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -29,8 +39,8 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,20 +48,150 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Snake Moving Eye Tutorial_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 692
+        width: 112
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Snake Moving Eye Tutorial_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 692
+        width: 96
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Snake Moving Eye Tutorial_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 564
+        width: 96
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Snake Moving Eye Tutorial_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 552
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Snake Moving Eye Tutorial_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Snake Moving Eye Tutorial_5
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 436
+        width: 112
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Snake Moving Eye Tutorial_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 307
+        width: 96
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Snake Moving Eye Tutorial_7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 307
+        width: 96
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Snake Moving Eye Tutorial_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 166
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Snake Moving Eye Tutorial_9
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 178
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

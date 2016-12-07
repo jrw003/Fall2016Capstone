@@ -20,7 +20,7 @@ public class Door : MonoBehaviour
 	{
 		// if inside player's attack trigger health goes down by 10
 		if (other.tag == "PlayerAttack") {
-			Debug.Log ("Player Attack");
+			//Debug.Log ("Player Attack");
 			spriteRenderer.sprite = doorSprites [1];
 			GetComponent<AudioSource> ().Play ();
 			ownHealth -= 10;
@@ -30,7 +30,7 @@ public class Door : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		Debug.Log ("Door Health = " + ownHealth);
+		//Debug.Log ("Door Health = " + ownHealth);
 		if (ownHealth <= 0 && !GetComponent<AudioSource> ().isPlaying) {
 			//GetComponent<AudioSource> ().Play ();
 			Destroy (gameObject);

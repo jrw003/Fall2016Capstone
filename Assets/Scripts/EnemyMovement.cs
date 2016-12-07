@@ -144,6 +144,7 @@ public class EnemyMovement : MonoBehaviour
 		if (ownHealth <= 0 && (!hurtSound.isPlaying) & !dead) {
 			death ();
 		}
+			
 	}
 
 	void Reverse ()

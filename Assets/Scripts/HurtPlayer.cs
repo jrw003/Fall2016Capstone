@@ -5,7 +5,7 @@ public class HurtPlayer : MonoBehaviour
 {
 
 	public int damageToPlayer;
-	public CircleCollider2D circleCollider;
+	//public CircleCollider2D circleCollider;
 
 	//KnightController playerController;
 	PlayerCntrller playerController;
@@ -30,9 +30,26 @@ public class HurtPlayer : MonoBehaviour
 
 	void OnTriggerEnter2D (Collider2D other)
 	{
-		if (other.tag == "Player" && gameObject.transform.parent.tag == "FishBoss") {
-			
-			if (bossDamageTimer < 0.01f) { 
+		if (gameObject.transform.parent != null) {
+			if (other.tag == "Player" && gameObject.transform.parent.tag == "FishBoss") {
+				
+				if (bossDamageTimer < 0.01f) { 
+					playerController = other.GetComponent<PlayerCntrller> ();
+
+					PlayerCntrller.health -= damageToPlayer;
+
+					GetComponent<AudioSource> ().Play ();
+					playerController.knockBackCounter = playerController.knockBackTime;
+					if (other.transform.position.x > transform.position.x) {
+						playerController.knockBackToRight = true;
+					} else {
+						playerController.knockBackToRight = false;
+					}
+					bossDamageTimer = 1f;
+				} else
+					return;
+			} else if (other.tag == "Player") {
+				Debug.Log ("Hurt Player");
 				playerController = other.GetComponent<PlayerCntrller> ();
 
 				PlayerCntrller.health -= damageToPlayer;
@@ -44,9 +61,13 @@ public class HurtPlayer : MonoBehaviour
 				} else {
 					playerController.knockBackToRight = false;
 				}
-				bossDamageTimer = 1f;
-			} else
-				return;
+			}
+			//			playerController.knockBackCounter = playerController.knockBackTime;
+			//			if (other.transform.position.x > transform.position.x) {
+			//				playerController.knockBackToRight = true;
+			//			} else {
+			//				playerController.knockBackToRight = false;
+			//			}
 //			Debug.Log ("disable collider");
 //			circleCollider.enabled = false;
 //			GetComponent<HurtPlayer> ().enabled = false;
@@ -67,18 +88,8 @@ public class HurtPlayer : MonoBehaviour
 //				Debug.Log ("disable collider");
 //				circleCollider.enabled = false;
 //				GetComponent<HurtPlayer> ().enabled = false;
-		} else if (other.tag == "Player") {
-			playerController = other.GetComponent<PlayerCntrller> ();
+		
 
-			PlayerCntrller.health -= damageToPlayer;
-
-			GetComponent<AudioSource> ().Play ();
-			playerController.knockBackCounter = playerController.knockBackTime;
-			if (other.transform.position.x > transform.position.x) {
-				playerController.knockBackToRight = true;
-			} else {
-				playerController.knockBackToRight = false;
-			}
 		}
 	}
 }

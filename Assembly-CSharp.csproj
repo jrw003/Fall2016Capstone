@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\Arrows.cs" />
      <Compile Include="Assets\Scripts\Attack.cs" />
      <Compile Include="Assets\Scripts\BackgroundScroll.cs" />
+     <Compile Include="Assets\Scripts\CreditButtons.cs" />
      <Compile Include="Assets\Scripts\DestroyObject.cs" />
      <Compile Include="Assets\Scripts\DestroyParticleSystem.cs" />
      <Compile Include="Assets\Scripts\Door.cs" />
@@ -58,6 +59,9 @@
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\EnemyRangeAttackController.cs" />
      <Compile Include="Assets\Scripts\EnemySpawn.cs" />
+     <Compile Include="Assets\Scripts\ExplodeProjectile.cs" />
+     <Compile Include="Assets\Scripts\ExplosionDamage.cs" />
+     <Compile Include="Assets\Scripts\ExplosionDamage1.cs" />
      <Compile Include="Assets\Scripts\FishSwimming.cs" />
      <Compile Include="Assets\Scripts\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\FrogController.cs" />
@@ -71,6 +75,7 @@
      <Compile Include="Assets\Scripts\JungleDoor.cs" />
      <Compile Include="Assets\Scripts\KeepPlayerOnPlatform.cs" />
      <Compile Include="Assets\Scripts\KeyCollect.cs" />
+     <Compile Include="Assets\Scripts\KeyOff.cs" />
      <Compile Include="Assets\Scripts\KnightController.cs" />
      <Compile Include="Assets\Scripts\MovePlatform.cs" />
      <Compile Include="Assets\Scripts\PlayerCntrller.cs" />

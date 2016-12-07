@@ -1,26 +1,45 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
-public class buttonlevel : MonoBehaviour {
+public class buttonlevel : MonoBehaviour
+{
 
 	public Button startText;
 
 	// Use this for initialization
-	void Start () {
-		startText = startText.GetComponent<Button>();
+	void Start ()
+	{
+		startText = startText.GetComponent<Button> ();
 
 	}
 
-	public void noPress()
-	{
-		startText.enabled = true;
+	//	public void noPress ()
+	//	{
+	//		startText.enabled = true;
+	//
+	//	}
 
+	public void TutorialLevel ()
+	{
+		SceneManager.LoadScene (1);
 	}
 
-	public void StartLevel()
+	public void DesertLevel ()
 	{
+		SceneManager.LoadScene (2);
+	}
 
-		Application.LoadLevel(1);
+	public void Credits ()
+	{
+		SceneManager.LoadScene (4);
+	}
+
+
+	// quit game called from button click
+	public void Quit ()
+	{
+		Application.Quit ();
 	}
 }

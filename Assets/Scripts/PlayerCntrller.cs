@@ -174,6 +174,7 @@ public class PlayerCntrller : MonoBehaviour
 
 		if (other.tag == "Goal") {
 			won = true;
+			anim.SetTrigger ("Celebrate");
 		}
 
 		if (other.tag == "Death")
